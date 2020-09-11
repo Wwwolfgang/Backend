@@ -3,12 +3,77 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="95366c02-faa8-4c60-af88-d587e78b1a32" name="Default Changelist" comment="" />
+    <list default="true" id="95366c02-faa8-4c60-af88-d587e78b1a32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/controllers/BolsaRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IBolsaClienteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/entity/BolsaPuntos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend-apirest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend-apirest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.roshka.springboot.backend.apirest/spring-boot-backend-apirest/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.roshka.springboot.backend.apirest/spring-boot-backend-apirest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/SpringBootBackendApirestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/SpringBootBackendApirestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/ClienteRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/ClienteRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/UsoPuntosRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/UsoPuntosRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/VencimientoPuntosRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/VencimientoPuntosRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/dao/IAsignacionPuntosDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/dao/IAsignacionPuntosDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/dao/IClienteDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/dao/IClienteDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/dao/IUsoPuntosDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/dao/IUsoPuntosDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/dao/IVencimientoPuntosDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/dao/IVencimientoPuntosDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/AsignacionPuntos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/AsignacionPuntos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/UsoPuntos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/UsoPuntos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/VencimientoPuntos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/VencimientoPuntos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/AsignacionPuntosServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/AsignacionPuntosServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/ClienteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/ClienteServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IAsignacionPuntosService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IAsignacionPuntosService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IUsoPuntosService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IUsoPuntosService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IVencimientoPuntosService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IVencimientoPuntosService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/UsoPuntosServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/UsoPuntosServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/VenciminetoPuntosServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/VenciminetoPuntosServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/roshka/springboot/backend/apirest/SpringBootBackendApirestApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/roshka/springboot/backend/apirest/SpringBootBackendApirestApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,17 +94,21 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Backend-Tp1-Spring-Boot" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.roshka.springboot.backend.apirest.models.services" />
-      <recent name="com.roshka.springboot.backend.apirest.controllers" />
-      <recent name="com.roshka.springboot.backend.apirest.models.dao" />
       <recent name="com.roshka.springboot.backend.apirest.models.entity" />
+      <recent name="com.roshka.springboot.backend.apirest.models.dao" />
+      <recent name="com.roshka.springboot.backend.apirest.controllers" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -48,6 +117,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootBackendApirestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-backend-apirest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.roshka.springboot.backend.apirest.SpringBootBackendApirestApplication" />
@@ -66,45 +146,61 @@
       <updated>1599776696384</updated>
       <workItem from="1599776697554" duration="1390000" />
       <workItem from="1599784224133" duration="320000" />
+      <workItem from="1599785179782" duration="6453000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="217" width="1356" height="294" key="#SQL_Dialects" timestamp="1599776727744">
+    <state x="166" y="27" width="1024" height="676" key="#Project_Structure" timestamp="1599785436816">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="0" y="217" width="1356" height="294" key="#SQL_Dialects/0.27.1366.676@0.27.1366.676" timestamp="1599776727744" />
-    <state x="278" y="27" width="800" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599776848438">
+    <state x="166" y="27" width="1024" height="676" key="#Project_Structure/0.27.1366.676@0.27.1366.676" timestamp="1599785436816" />
+    <state x="0" y="217" width="1356" height="294" key="#SQL_Dialects" timestamp="1599785248120">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="278" y="27" width="800" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.676@0.27.1366.676" timestamp="1599776848438" />
+    <state x="0" y="217" width="1356" height="294" key="#SQL_Dialects/0.27.1366.676@0.27.1366.676" timestamp="1599785248120" />
+    <state x="278" y="27" width="800" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599785350933">
+      <screen x="0" y="27" width="1366" height="676" />
+    </state>
+    <state x="278" y="27" width="800" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.676@0.27.1366.676" timestamp="1599785350933" />
     <state x="416" y="113" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599784044149">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state x="416" y="113" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.676@0.27.1366.676" timestamp="1599784044149" />
-    <state x="466" y="122" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599784241920">
+    <state x="466" y="122" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599785535027">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="466" y="122" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.676@0.27.1366.676" timestamp="1599784241920" />
-    <state width="1320" height="346" key="GridCell.Tab.0.bottom" timestamp="1599784187115">
+    <state x="466" y="122" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.676@0.27.1366.676" timestamp="1599785535027" />
+    <state width="1320" height="346" key="GridCell.Tab.0.bottom" timestamp="1599785706507">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.0.bottom/0.27.1366.676@0.27.1366.676" timestamp="1599784187115" />
-    <state width="1320" height="346" key="GridCell.Tab.0.center" timestamp="1599784187114">
+    <state width="1320" height="346" key="GridCell.Tab.0.bottom/0.27.1366.676@0.27.1366.676" timestamp="1599785706507" />
+    <state width="1320" height="346" key="GridCell.Tab.0.center" timestamp="1599785706507">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.0.center/0.27.1366.676@0.27.1366.676" timestamp="1599784187114" />
-    <state width="1320" height="346" key="GridCell.Tab.0.left" timestamp="1599784187114">
+    <state width="1320" height="346" key="GridCell.Tab.0.center/0.27.1366.676@0.27.1366.676" timestamp="1599785706507" />
+    <state width="1320" height="346" key="GridCell.Tab.0.left" timestamp="1599785706507">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.0.left/0.27.1366.676@0.27.1366.676" timestamp="1599784187114" />
-    <state width="1320" height="346" key="GridCell.Tab.0.right" timestamp="1599784187115">
+    <state width="1320" height="346" key="GridCell.Tab.0.left/0.27.1366.676@0.27.1366.676" timestamp="1599785706507" />
+    <state width="1320" height="346" key="GridCell.Tab.0.right" timestamp="1599785706507">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.0.right/0.27.1366.676@0.27.1366.676" timestamp="1599784187115" />
+    <state width="1320" height="346" key="GridCell.Tab.0.right/0.27.1366.676@0.27.1366.676" timestamp="1599785706507" />
     <state width="1320" height="346" key="GridCell.Tab.1.bottom" timestamp="1599784187116">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
@@ -121,9 +217,9 @@
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state width="1320" height="346" key="GridCell.Tab.1.right/0.27.1366.676@0.27.1366.676" timestamp="1599784187115" />
-    <state x="347" y="159" width="672" height="677" key="run.anything.popup" timestamp="1599777029516">
+    <state x="347" y="159" width="672" height="677" key="run.anything.popup" timestamp="1599785689437">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="347" y="159" width="672" height="677" key="run.anything.popup/0.27.1366.676@0.27.1366.676" timestamp="1599777029516" />
+    <state x="347" y="159" width="672" height="677" key="run.anything.popup/0.27.1366.676@0.27.1366.676" timestamp="1599785689437" />
   </component>
 </project>

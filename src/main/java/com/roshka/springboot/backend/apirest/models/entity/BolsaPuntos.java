@@ -1,5 +1,6 @@
 package com.roshka.springboot.backend.apirest.models.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import javax.persistence.*;
@@ -40,6 +41,7 @@ public class BolsaPuntos implements Serializable {
 		this.id = id;
 	}
 
+	@JsonBackReference
 	public Cliente getCliente() {
 		return cliente;
 	}

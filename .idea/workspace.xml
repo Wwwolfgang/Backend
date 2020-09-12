@@ -29,44 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95366c02-faa8-4c60-af88-d587e78b1a32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/dao/ICabeceraDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IDetalleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Cabecera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Detalle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/CabeceraServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/EmailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/ICabeceraService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/IDetallesService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-backend-apirest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend-apirest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/controllers/BolsaRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/controllers/BolsaRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/entity/BolsaPuntos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/entity/BolsaPuntos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/AsignacionPuntosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/AsignacionPuntosServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/IAsignacionPuntosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/IAsignacionPuntosService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/BolsaRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/controllers/BolsaRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/BolsaPuntos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/BolsaPuntos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/AsignacionPuntosServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/AsignacionPuntosServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IAsignacionPuntosService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/IAsignacionPuntosService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-boot-backend-apirest-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-backend-apirest-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-boot-backend-apirest-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-backend-apirest-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.roshka.springboot.backend.apirest.SpringBootBackendApirestApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.roshka.springboot.backend.apirest.SpringBootBackendApirestApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.roshka.springboot.backend.apirest.SpringBootBackendApirestApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.roshka.springboot.backend.apirest.SpringBootBackendApirestApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +51,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Wwwolfgang/Backend" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -160,7 +130,7 @@
       <updated>1599776696384</updated>
       <workItem from="1599776697554" duration="1390000" />
       <workItem from="1599784224133" duration="320000" />
-      <workItem from="1599785179782" duration="33303000" />
+      <workItem from="1599785179782" duration="34993000" />
     </task>
     <servers />
   </component>
@@ -247,10 +217,10 @@
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state width="1320" height="346" key="GridCell.Tab.1.right/0.27.1366.676@0.27.1366.676" timestamp="1599921864637" />
-    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599828272625">
+    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599922892469">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.676@0.27.1366.676" timestamp="1599828272625" />
+    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.676@0.27.1366.676" timestamp="1599922892469" />
     <state x="0" y="27" width="1356" height="676" key="new project wizard" timestamp="1599829711469">
       <screen x="0" y="27" width="1366" height="676" />
     </state>

@@ -6,6 +6,7 @@ import java.util.*;
 import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 @Table(name="clientes")
@@ -27,6 +28,7 @@ public class Cliente implements Serializable {
 	@OrderBy("fechaAsignacion")
 	private List<BolsaPuntos> bolsas = new ArrayList<>();
 
+	@JsonManagedReference
 	public List<BolsaPuntos> getBolsas() {
 		return bolsas;
 	}

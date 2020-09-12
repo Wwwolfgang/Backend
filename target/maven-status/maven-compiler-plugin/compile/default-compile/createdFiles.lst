@@ -1,9 +1,9 @@
 com/roshka/springboot/backend/apirest/models/services/IUsoPuntosService.class
 com/roshka/springboot/backend/apirest/models/services/IClienteService.class
 com/roshka/springboot/backend/apirest/models/services/UsoPuntosServiceImpl.class
+com/roshka/springboot/backend/apirest/models/Email/GmailConfig.class
 com/roshka/springboot/backend/apirest/models/dao/IClienteDao.class
 com/roshka/springboot/backend/apirest/models/entity/Cliente.class
-com/roshka/springboot/backend/apirest/models/services/EmailServiceImpl.class
 com/roshka/springboot/backend/apirest/models/entity/Cabecera.class
 com/roshka/springboot/backend/apirest/models/entity/Detalle.class
 com/roshka/springboot/backend/apirest/controllers/ClienteRestController.class
@@ -14,6 +14,7 @@ com/roshka/springboot/backend/apirest/models/services/IVencimientoPuntosService.
 com/roshka/springboot/backend/apirest/models/dao/IVencimientoPuntosDao.class
 com/roshka/springboot/backend/apirest/models/dao/IAsignacionPuntosDao.class
 com/roshka/springboot/backend/apirest/models/services/ClienteServiceImpl.class
+com/roshka/springboot/backend/apirest/models/services/MailService.class
 com/roshka/springboot/backend/apirest/models/services/VenciminetoPuntosServiceImpl.class
 com/roshka/springboot/backend/apirest/models/entity/BolsaPuntos.class
 com/roshka/springboot/backend/apirest/models/dao/IDetalleDao.class
@@ -30,6 +31,5 @@ com/roshka/springboot/backend/apirest/models/entity/VencimientoPuntos.class
 com/roshka/springboot/backend/apirest/models/dao/ICabeceraDao.class
 com/roshka/springboot/backend/apirest/models/services/IDetallesService.class
 com/roshka/springboot/backend/apirest/controllers/UsoPuntosRestController.class
-com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl$1.class
 com/roshka/springboot/backend/apirest/controllers/BolsaRestController.class
 com/roshka/springboot/backend/apirest/models/dao/IUsoPuntosDao.class

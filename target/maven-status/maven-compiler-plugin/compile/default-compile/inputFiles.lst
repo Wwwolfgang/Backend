@@ -1,4 +1,5 @@
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Cliente.java
+/home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/Email/GmailConfig.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/IUsoPuntosService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/ICabeceraDao.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.java
@@ -11,7 +12,6 @@
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/IVencimientoPuntosService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/IAsignacionPuntosService.java
-/home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/EmailServiceImpl.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/SpringBootBackendApirestApplication.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/ClienteRestController.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/ICabeceraService.java
@@ -28,6 +28,7 @@
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/UsoPuntosRestController.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IBolsaClienteDao.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IUsoPuntosDao.java
+/home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/MailService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IDetalleDao.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/UsoPuntos.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/BolsaPuntos.java

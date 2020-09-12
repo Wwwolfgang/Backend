@@ -23,10 +23,10 @@ public class CabeceraServiceImpl implements ICabeceraService{
     private IClienteDao clienteDao;
 
     @Autowired
-    private IBolsaClienteDao bolsaClienteDao;
+    private IDetalleDao detalleDao;
 
     @Autowired
-    private IDetalleDao detalleDao;
+    private MailService mailService;
 
     @Override
     @Transactional(readOnly = true)
@@ -59,7 +59,6 @@ public class CabeceraServiceImpl implements ICabeceraService{
         cabecera.setPuntosUtilizados(puntosRequeridos);
         cabecera.setDescripcionPuntos(concepto.getDescripcionPuntos());
         cabecera.setFecha(date);
-        cabecera.setCreateAt(date);
 
         for (BolsaPuntos bolsaPuntos : bolsas){
             if(bolsaPuntos.getSaldoPuntos() >= puntosRequeridos){
@@ -89,7 +88,16 @@ public class CabeceraServiceImpl implements ICabeceraService{
                 cabeceraDao.save(cabecera);
                 detalleDao.saveAll(detalles);
 
-                return "Puntos exitosamente usados";
+                try {
+                    mailService.sendMail("wwwolfgang469@gmail.com","Test",cliente.getEmail(),"","",
+                            "Se aplicaron exitosamente " + concepto.getPuntosRequeridos() +
+                                    " Puntos a "+ concepto.getDescripcionPuntos() + "! Gracias por su preferencia!!");
+
+                    return "Puntos exitosamente usados, correo comprobante enviado!";
+                }catch (Exception e){
+                    return "Puntos exitosamente usados, correo comprobante no se pudo enviar!";
+                }
+
 
             }else {
                 bolsasUsadas.add(bolsaPuntos);

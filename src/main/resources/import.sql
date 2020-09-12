@@ -1,5 +1,5 @@
 /* Popolate tables */
-Insert into clientes (nombre,apellido,numero_doc,nacionalidad,telefono,email,create_at) values('Carlitos','Canete','5678678','paraguaya','0987654656','carlios@gmail.com','2020-08-28');
+Insert into clientes (nombre,apellido,numero_doc,nacionalidad,telefono,email,create_at) values('Carlitos','Canete','5678678','paraguaya','0987654656','wwwolfgang469@fpuna.edu.py','2020-08-28');
 Insert into clientes (nombre,apellido,numero_doc,nacionalidad,telefono,email,create_at) values('Estela','Perez','5676678','paraguaya','0987654653','estelita@gmail.com','2020-08-28');
 Insert into clientes (nombre,apellido,numero_doc,nacionalidad,telefono,email,create_at) values('Roxana','Perez','5698678','paraguaya','0987654658','estelita@gmail.com','2020-08-28');
 Insert into clientes (nombre,apellido,numero_doc,nacionalidad,telefono,email,create_at) values('Sasha','Perez','5678378','paraguaya','0987654650','estelita@gmail.com','2020-08-28');

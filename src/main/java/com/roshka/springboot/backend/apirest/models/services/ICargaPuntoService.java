@@ -14,6 +14,4 @@ public interface ICargaPuntoService {
 
     public void delete(Long id);
 
-    public void enviarComprobante();
-
 }

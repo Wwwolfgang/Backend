@@ -26,9 +26,6 @@ public class Cabecera implements Serializable {
     @JsonFormat(pattern="yyyy-MM-dd")
     private Date fecha;
 
-    @Column(name="create_at")
-    @JsonFormat(pattern="yyyy-MM-dd")
-    private Date createAt;
 
 
     public Long getId() {
@@ -69,14 +66,6 @@ public class Cabecera implements Serializable {
 
     public void setFecha(Date fecha) {
         this.fecha = fecha;
-    }
-
-    public Date getCreateAt() {
-        return createAt;
-    }
-
-    public void setCreateAt(Date createAt) {
-        this.createAt = createAt;
     }
 
     private static final long serialVersionUID = 1L;

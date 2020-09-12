@@ -107,7 +107,6 @@ public class CargaPuntosServiceImpl implements ICargaPuntoService {
         //Asignacion cliente
         Cliente cliente = clienteDao.findById(Long.parseLong(id)).orElseThrow(null);
         bolsaPuntos.setCliente(cliente);
-        enviarComprobante();
 
         return bolsaClienteDao.save(bolsaPuntos);}
 
@@ -116,60 +115,5 @@ public class CargaPuntosServiceImpl implements ICargaPuntoService {
     public void delete(Long id){
         bolsaClienteDao.deleteById(id);
     }
-
-    @Override
-    public void enviarComprobante() {
-        JavaMailSender emailSender= new JavaMailSender() {
-            @Override
-            public MimeMessage createMimeMessage() {
-                return null;
-            }
-
-            @Override
-            public MimeMessage createMimeMessage(InputStream inputStream) throws MailException {
-                return null;
-            }
-
-            @Override
-            public void send(MimeMessage mimeMessage) throws MailException {
-
-            }
-
-            @Override
-            public void send(MimeMessage... mimeMessages) throws MailException {
-
-            }
-
-            @Override
-            public void send(MimeMessagePreparator mimeMessagePreparator) throws MailException {
-
-            }
-
-            @Override
-            public void send(MimeMessagePreparator... mimeMessagePreparators) throws MailException {
-
-            }
-
-            @Override
-            public void send(SimpleMailMessage simpleMailMessage) throws MailException {
-
-            }
-
-            @Override
-            public void send(SimpleMailMessage... simpleMailMessages) throws MailException {
-
-            }
-        };
-
-
-            SimpleMailMessage message = new SimpleMailMessage();
-            message.setFrom("wwwolfgang469@gmail.com");
-            message.setTo("wwwolfgang469@fpuna.edu.py");
-            message.setSubject("Test");
-            message.setText("Test comprobante");
-            emailSender.send(message);
-
-    }
-
 
 }

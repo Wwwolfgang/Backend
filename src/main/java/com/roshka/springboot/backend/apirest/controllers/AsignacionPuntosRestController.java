@@ -58,6 +58,11 @@ public class AsignacionPuntosRestController {
 	public void delete(@PathVariable Long id) {
 		asignacionpuntoservice.delete(id);
 	}
-	
+
+
+	@GetMapping("/puntos-equivalentes/{monto}")
+	public Integer puntosEquivalente(@PathVariable String monto){
+		return asignacionpuntoservice.puntosEquivalente(monto);
+	}
 	
 }

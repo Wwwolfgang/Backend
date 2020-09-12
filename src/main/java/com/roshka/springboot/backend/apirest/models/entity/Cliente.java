@@ -1,17 +1,9 @@
 package com.roshka.springboot.backend.apirest.models.entity;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.util.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.PrePersist;
-import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
+import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -30,7 +22,19 @@ public class Cliente implements Serializable {
 	private String tipo_doc;
 	private String nacionalidad;
 	private String telefono;
-	
+
+	@OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,mappedBy = "cliente")
+	@OrderBy("fechaAsignacion")
+	private List<BolsaPuntos> bolsas = new ArrayList<>();
+
+	public List<BolsaPuntos> getBolsas() {
+		return bolsas;
+	}
+
+	public void setBolsas(List<BolsaPuntos> bolsas) {
+		this.bolsas = bolsas;
+	}
+
 	public String getNumero_doc() {
 		return numero_doc;
 	}

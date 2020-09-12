@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.Date;
 
 @Entity
@@ -14,7 +15,7 @@ public class BolsaPuntos implements Serializable {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "cliente_id")
 	private Cliente cliente;
 
@@ -29,7 +30,7 @@ public class BolsaPuntos implements Serializable {
 	private Integer puntosAsignados;
 	private Integer puntosUsados;
 	private Integer saldoPuntos;
-	private Double montoOperacion;
+	private BigDecimal montoOperacion;
 
 	public Long getId() {
 		return id;
@@ -87,11 +88,11 @@ public class BolsaPuntos implements Serializable {
 		this.saldoPuntos = saldoPuntos;
 	}
 
-	public Double getMontoOperacion() {
+	public BigDecimal getMontoOperacion() {
 		return montoOperacion;
 	}
 
-	public void setMontoOperacion(Double montoOperacion) {
+	public void setMontoOperacion(BigDecimal montoOperacion) {
 		this.montoOperacion = montoOperacion;
 	}
 

@@ -13,4 +13,7 @@ public interface ICargaPuntoService {
     public BolsaPuntos save(String id, String monto); // recibe un objeto cliente y retorna un cliente ya con el id
 
     public void delete(Long id);
+
+    public void enviarComprobante();
+
 }

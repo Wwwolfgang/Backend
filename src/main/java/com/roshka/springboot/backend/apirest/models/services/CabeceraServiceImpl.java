@@ -1,20 +1,14 @@
 package com.roshka.springboot.backend.apirest.models.services;
 
-import com.roshka.springboot.backend.apirest.models.dao.IBolsaClienteDao;
-import com.roshka.springboot.backend.apirest.models.dao.ICabeceraDao;
-import com.roshka.springboot.backend.apirest.models.dao.IClienteDao;
-import com.roshka.springboot.backend.apirest.models.dao.IUsoPuntosDao;
-import com.roshka.springboot.backend.apirest.models.entity.BolsaPuntos;
-import com.roshka.springboot.backend.apirest.models.entity.Cabecera;
-import com.roshka.springboot.backend.apirest.models.entity.Cliente;
-import com.roshka.springboot.backend.apirest.models.entity.UsoPuntos;
+import com.roshka.springboot.backend.apirest.models.dao.*;
+import com.roshka.springboot.backend.apirest.models.entity.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 @Service
 public class CabeceraServiceImpl implements ICabeceraService{
@@ -31,6 +25,9 @@ public class CabeceraServiceImpl implements ICabeceraService{
     @Autowired
     private IBolsaClienteDao bolsaClienteDao;
 
+    @Autowired
+    private IDetalleDao detalleDao;
+
     @Override
     @Transactional(readOnly = true)
     public List<Cabecera> findAll() {
@@ -45,25 +42,60 @@ public class CabeceraServiceImpl implements ICabeceraService{
 
     @Override
     @Transactional
-    public Cabecera save(String id_cliente, String id_concepto) {
+    public String save(String id_cliente, String id_concepto) {
+        Cabecera cabecera = new Cabecera();
+        List<Detalle> detalles = new ArrayList<>();
+
         UsoPuntos concepto = usoPuntosDao.findById(Long.parseLong(id_concepto)).orElseThrow(null);
         double puntosRequeridos = concepto.getPuntosRequeridos();
         Cliente cliente = clienteDao.findById(Long.parseLong(id_cliente)).orElseThrow(null);
+        long millis=System.currentTimeMillis();
+        Date date = new Date(millis);
 
         List<BolsaPuntos> bolsas = new ArrayList<>(cliente.getBolsas());
-        List<BolsaPuntos> aEliminar = new ArrayList<>();
+        List<BolsaPuntos> bolsasUsadas = new ArrayList<>();
+
+        cabecera.setCliente(cliente);
+        cabecera.setPuntosUtilizados(puntosRequeridos);
+        cabecera.setDescripcionPuntos(concepto.getDescripcionPuntos());
+        cabecera.setFecha(date);
+        cabecera.setCreateAt(date);
 
         for (BolsaPuntos bolsaPuntos : bolsas){
             if(bolsaPuntos.getSaldoPuntos() >= puntosRequeridos){
+                Detalle detalle = new Detalle();
                 bolsaPuntos.setPuntosUsados((int) (bolsaPuntos.getPuntosUsados() + puntosRequeridos));
                 bolsaPuntos.setSaldoPuntos(bolsaPuntos.getPuntosAsignados() - bolsaPuntos.getPuntosUsados());
-                if(bolsaPuntos.getSaldoPuntos() == 0)
-                    bolsaClienteDao.deleteById(bolsaPuntos.getId());
-            }else {
 
+                detalle.setBolsaPuntos(bolsaPuntos);
+                detalle.setCabecera(cabecera);
+                detalle.setCreateAt(date);
+                detalle.setPuntosUtilizados(puntosRequeridos);
+
+                detalles.add(detalle);
+
+                for(BolsaPuntos bolsaPuntos1 : bolsasUsadas){
+                    Detalle detalle_u = new Detalle();
+                    detalle_u.setPuntosUtilizados((double)bolsaPuntos1.getSaldoPuntos());
+                    detalle_u.setBolsaPuntos(bolsaPuntos1);
+                    detalle_u.setCabecera(cabecera);
+                    detalle_u.setCreateAt(date);
+
+                    bolsaPuntos1.setSaldoPuntos(0);
+                    bolsaPuntos1.setPuntosUsados(bolsaPuntos1.getPuntosAsignados());
+
+                    detalles.add(detalle_u);
+                }
+                cabeceraDao.save(cabecera);
+                detalleDao.saveAll(detalles);
+
+                return "Puntos exitosamente usados";
+
+            }else {
+                bolsasUsadas.add(bolsaPuntos);
+                puntosRequeridos -= bolsaPuntos.getSaldoPuntos();
             }
         }
-
-        return null;
+        return "No se pudieron usar puntos";
     }
 }

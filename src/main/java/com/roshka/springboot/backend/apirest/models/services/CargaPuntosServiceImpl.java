@@ -103,7 +103,6 @@ public class CargaPuntosServiceImpl implements ICargaPuntoService {
 
         //Fecha de asignacion y created_at
         bolsaPuntos.setFechaAsignacion(date);
-        bolsaPuntos.setCreateAt(date);
 
         //Asignacion cliente
         Cliente cliente = clienteDao.findById(Long.parseLong(id)).orElseThrow(null);

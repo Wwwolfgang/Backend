@@ -27,7 +27,7 @@ public class BolsaRestController {
 
     @PostMapping("/utilizar/{id_cliente}/{id_concepto}")
     @ResponseStatus(HttpStatus.CREATED)
-    public Cabecera crear(@PathVariable String id_cliente, @PathVariable String id_concepto){
+    public String crear(@PathVariable String id_cliente, @PathVariable String id_concepto){
         return cabeceraService.save(id_cliente,id_concepto);
     }
 }

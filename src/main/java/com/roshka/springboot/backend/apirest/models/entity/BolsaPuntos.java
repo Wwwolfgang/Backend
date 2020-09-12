@@ -16,7 +16,7 @@ public class BolsaPuntos implements Serializable {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
 	@JoinColumn(name = "cliente_id")
 	private Cliente cliente;
 
@@ -96,18 +96,6 @@ public class BolsaPuntos implements Serializable {
 
 	public void setMontoOperacion(BigDecimal montoOperacion) {
 		this.montoOperacion = montoOperacion;
-	}
-
-	@Column(name="create_at")
-	@JsonFormat(pattern="yyyy-MM-dd")
-    private Date createAt;
-
-	public Date getCreateAt() {
-		return createAt;
-	}
-
-	public void setCreateAt(Date createAt) {
-		this.createAt = createAt;
 	}
 
 	private static final long serialVersionUID = 1L;

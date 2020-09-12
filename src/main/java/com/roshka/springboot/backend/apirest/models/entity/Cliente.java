@@ -24,7 +24,7 @@ public class Cliente implements Serializable {
 	private String nacionalidad;
 	private String telefono;
 
-	@OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,mappedBy = "cliente")
+	@OneToMany(cascade = CascadeType.PERSIST,fetch = FetchType.LAZY,mappedBy = "cliente",orphanRemoval = true)
 	@OrderBy("fechaAsignacion")
 	private List<BolsaPuntos> bolsas = new ArrayList<>();
 

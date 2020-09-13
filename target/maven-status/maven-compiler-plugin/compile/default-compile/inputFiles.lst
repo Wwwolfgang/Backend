@@ -2,6 +2,7 @@
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/Email/GmailConfig.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/IUsoPuntosService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/ICabeceraDao.java
+/home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/Tareas/TareasProgramadas.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/IClienteService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/AsignacionPuntos.java

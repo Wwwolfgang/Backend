@@ -27,6 +27,7 @@ com/roshka/springboot/backend/apirest/models/entity/AsignacionPuntos.class
 com/roshka/springboot/backend/apirest/models/entity/UsoPuntos.class
 com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.class
 com/roshka/springboot/backend/apirest/models/services/ICabeceraService.class
+com/roshka/springboot/backend/apirest/models/Tareas/TareasProgramadas.class
 com/roshka/springboot/backend/apirest/models/entity/VencimientoPuntos.class
 com/roshka/springboot/backend/apirest/models/dao/ICabeceraDao.class
 com/roshka/springboot/backend/apirest/models/services/IDetallesService.class

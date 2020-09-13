@@ -19,4 +19,4 @@ Insert into vencimientopuntos (fecha_inicio,fecha_fin,dias_duracion) values('202
 
 Insert into bolsas(cliente_id,fecha_asignacion,fecha_caducidad,puntos_asignados,puntos_usados,saldo_puntos,monto_operacion) values (1,'2020-08-30','2020-09-28',8,6,2,800000)
 Insert into bolsas(cliente_id,fecha_asignacion,fecha_caducidad,puntos_asignados,puntos_usados,saldo_puntos,monto_operacion) values (1,'2020-08-28','2020-09-28',11,9,2,800000)
-Insert into bolsas(cliente_id,fecha_asignacion,fecha_caducidad,puntos_asignados,puntos_usados,saldo_puntos,monto_operacion) values (1,'2020-08-29','2020-09-28',10,8,2,800000)
+Insert into bolsas(cliente_id,fecha_asignacion,fecha_caducidad,puntos_asignados,puntos_usados,saldo_puntos,monto_operacion) values (1,'2020-08-29','2020-09-11',10,8,2,800000)

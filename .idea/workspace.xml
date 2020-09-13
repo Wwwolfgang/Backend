@@ -29,22 +29,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95366c02-faa8-4c60-af88-d587e78b1a32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/Email/GmailConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/Tareas/TareasProgramadas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Cabecera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Cabecera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/CabeceraServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/CabeceraServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/EmailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/Cabecera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/entity/Cabecera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/SpringBootBackendApirestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roshka/springboot/backend/apirest/SpringBootBackendApirestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/SpringBootBackendApirestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/SpringBootBackendApirestApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/CabeceraServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/CabeceraServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/EmailServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roshka/springboot/backend/apirest/models/services/ICargaPuntoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/import.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/spring-boot-backend-apirest-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-backend-apirest-0.0.1-SNAPSHOT.jar" afterDir="false" />
@@ -152,7 +143,7 @@
       <updated>1599776696384</updated>
       <workItem from="1599776697554" duration="1390000" />
       <workItem from="1599784224133" duration="320000" />
-      <workItem from="1599785179782" duration="49198000" />
+      <workItem from="1599785179782" duration="54173000" />
     </task>
     <servers />
   </component>
@@ -207,42 +198,42 @@
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state x="466" y="122" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.676@0.27.1366.676" timestamp="1599785535027" />
-    <state width="1320" height="346" key="GridCell.Tab.0.bottom" timestamp="1599952693489">
+    <state width="1320" height="346" key="GridCell.Tab.0.bottom" timestamp="1599959054331">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.0.bottom/0.27.1366.676@0.27.1366.676" timestamp="1599952693489" />
-    <state width="1320" height="346" key="GridCell.Tab.0.center" timestamp="1599952693487">
+    <state width="1320" height="346" key="GridCell.Tab.0.bottom/0.27.1366.676@0.27.1366.676" timestamp="1599959054331" />
+    <state width="1320" height="346" key="GridCell.Tab.0.center" timestamp="1599959054330">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.0.center/0.27.1366.676@0.27.1366.676" timestamp="1599952693487" />
-    <state width="1320" height="346" key="GridCell.Tab.0.left" timestamp="1599952693486">
+    <state width="1320" height="346" key="GridCell.Tab.0.center/0.27.1366.676@0.27.1366.676" timestamp="1599959054330" />
+    <state width="1320" height="346" key="GridCell.Tab.0.left" timestamp="1599959054330">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.0.left/0.27.1366.676@0.27.1366.676" timestamp="1599952693486" />
-    <state width="1320" height="346" key="GridCell.Tab.0.right" timestamp="1599952693489">
+    <state width="1320" height="346" key="GridCell.Tab.0.left/0.27.1366.676@0.27.1366.676" timestamp="1599959054330" />
+    <state width="1320" height="346" key="GridCell.Tab.0.right" timestamp="1599959054331">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.0.right/0.27.1366.676@0.27.1366.676" timestamp="1599952693489" />
-    <state width="1320" height="346" key="GridCell.Tab.1.bottom" timestamp="1599952693492">
+    <state width="1320" height="346" key="GridCell.Tab.0.right/0.27.1366.676@0.27.1366.676" timestamp="1599959054331" />
+    <state width="1320" height="346" key="GridCell.Tab.1.bottom" timestamp="1599959054332">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.1.bottom/0.27.1366.676@0.27.1366.676" timestamp="1599952693492" />
-    <state width="1320" height="346" key="GridCell.Tab.1.center" timestamp="1599952693490">
+    <state width="1320" height="346" key="GridCell.Tab.1.bottom/0.27.1366.676@0.27.1366.676" timestamp="1599959054332" />
+    <state width="1320" height="346" key="GridCell.Tab.1.center" timestamp="1599959054332">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.1.center/0.27.1366.676@0.27.1366.676" timestamp="1599952693490" />
-    <state width="1320" height="346" key="GridCell.Tab.1.left" timestamp="1599952693490">
+    <state width="1320" height="346" key="GridCell.Tab.1.center/0.27.1366.676@0.27.1366.676" timestamp="1599959054332" />
+    <state width="1320" height="346" key="GridCell.Tab.1.left" timestamp="1599959054331">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.1.left/0.27.1366.676@0.27.1366.676" timestamp="1599952693490" />
-    <state width="1320" height="346" key="GridCell.Tab.1.right" timestamp="1599952693491">
+    <state width="1320" height="346" key="GridCell.Tab.1.left/0.27.1366.676@0.27.1366.676" timestamp="1599959054331" />
+    <state width="1320" height="346" key="GridCell.Tab.1.right" timestamp="1599959054332">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="346" key="GridCell.Tab.1.right/0.27.1366.676@0.27.1366.676" timestamp="1599952693491" />
-    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599943566443">
+    <state width="1320" height="346" key="GridCell.Tab.1.right/0.27.1366.676@0.27.1366.676" timestamp="1599959054332" />
+    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599953376997">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.676@0.27.1366.676" timestamp="1599943566443" />
+    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.676@0.27.1366.676" timestamp="1599953376997" />
     <state x="344" y="69" width="1022" height="634" key="dock-window-1" timestamp="1599936830409">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
@@ -251,13 +242,13 @@
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state x="0" y="27" width="1356" height="676" key="new project wizard/0.27.1366.676@0.27.1366.676" timestamp="1599829711469" />
-    <state x="347" y="159" width="672" height="677" key="run.anything.popup" timestamp="1599952280565">
+    <state x="347" y="159" width="672" height="677" key="run.anything.popup" timestamp="1599958174306">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="347" y="159" width="672" height="677" key="run.anything.popup/0.27.1366.676@0.27.1366.676" timestamp="1599952280565" />
-    <state x="346" y="26" width="672" height="678" key="search.everywhere.popup" timestamp="1599952046114">
+    <state x="347" y="159" width="672" height="677" key="run.anything.popup/0.27.1366.676@0.27.1366.676" timestamp="1599958174306" />
+    <state x="346" y="26" width="672" height="678" key="search.everywhere.popup" timestamp="1599956871430">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="346" y="26" width="672" height="678" key="search.everywhere.popup/0.27.1366.676@0.27.1366.676" timestamp="1599952046114" />
+    <state x="346" y="26" width="672" height="678" key="search.everywhere.popup/0.27.1366.676@0.27.1366.676" timestamp="1599956871430" />
   </component>
 </project>

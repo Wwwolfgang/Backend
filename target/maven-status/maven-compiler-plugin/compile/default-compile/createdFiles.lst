@@ -3,6 +3,7 @@ com/roshka/springboot/backend/apirest/models/services/IClienteService.class
 com/roshka/springboot/backend/apirest/models/services/UsoPuntosServiceImpl.class
 com/roshka/springboot/backend/apirest/models/Email/GmailConfig.class
 com/roshka/springboot/backend/apirest/models/dao/IClienteDao.class
+com/roshka/springboot/backend/apirest/ServletInitializer.class
 com/roshka/springboot/backend/apirest/models/entity/Cliente.class
 com/roshka/springboot/backend/apirest/models/entity/Cabecera.class
 com/roshka/springboot/backend/apirest/models/entity/Detalle.class
@@ -27,6 +28,7 @@ com/roshka/springboot/backend/apirest/models/entity/AsignacionPuntos.class
 com/roshka/springboot/backend/apirest/models/entity/UsoPuntos.class
 com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.class
 com/roshka/springboot/backend/apirest/models/services/ICabeceraService.class
+com/roshka/springboot/backend/apirest/controllers/HomeController.class
 com/roshka/springboot/backend/apirest/models/Tareas/TareasProgramadas.class
 com/roshka/springboot/backend/apirest/models/entity/VencimientoPuntos.class
 com/roshka/springboot/backend/apirest/models/dao/ICabeceraDao.class

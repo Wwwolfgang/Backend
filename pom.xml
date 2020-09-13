@@ -13,9 +13,14 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-backend-apirest</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>war</packaging>
 
 	<properties>
 		<java.version>11</java.version>
+		<deploy.jboss.host>127.0.0.1</deploy.jboss.host>
+		<deploy.jboss.port>9990</deploy.jboss.port>
+		<deploy.jboss.username>backenduser</deploy.jboss.username>
+		<deploy.jboss.password>Passw0rd</deploy.jboss.password>
 	</properties>
 
 	<dependencies>
@@ -26,6 +31,15 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
 		<dependency>
@@ -62,6 +76,26 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.wildfly.plugins</groupId>
+				<artifactId>wildfly-maven-plugin</artifactId>
+				<version>2.1.0.Beta1</version>
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<filename>${project.build.finalName}.war</filename>
+					<hostname>${deploy.jboss.host}</hostname>
+					<port>${deploy.jboss.port}</port>
+					<username>${deploy.jboss.username}</username>
+					<password>${deploy.jboss.password}</password>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

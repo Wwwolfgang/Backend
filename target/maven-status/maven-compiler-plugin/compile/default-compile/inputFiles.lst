@@ -5,6 +5,7 @@
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/Tareas/TareasProgramadas.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/IClienteService.java
+/home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/HomeController.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/AsignacionPuntos.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/IDetallesService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/CargaPuntosServiceImpl.java
@@ -19,6 +20,7 @@
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Cabecera.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IAsignacionPuntosDao.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/BolsaRestController.java
+/home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/ServletInitializer.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Detalle.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IClienteDao.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/AsignacionPuntosServiceImpl.java

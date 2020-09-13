@@ -23,9 +23,9 @@ public class GmailConfig {
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.debug", "false");
-        props.put("mail.smtp.connectiontimeout",5000);
-        props.put("mail.smtp.timeout",5000);
-        props.put("mail.smtp.writetimeout",5000);
+        props.put("mail.smtp.connectiontimeout",1000);
+        props.put("mail.smtp.timeout",1000);
+        props.put("mail.smtp.writetimeout",1000);
 
         return mailSender;
     }

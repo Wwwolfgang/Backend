@@ -61,7 +61,7 @@ public class CabeceraServiceImpl implements ICabeceraService{
         cabecera.setFecha(date);
 
         for (BolsaPuntos bolsaPuntos : bolsas){
-            if(bolsaPuntos.getSaldoPuntos() >= puntosRequeridos){
+            if(bolsaPuntos.getSaldoPuntos() >= puntosRequeridos && date.compareTo(bolsaPuntos.getFechaCaducidad())<= 0){
                 Detalle detalle = new Detalle();
                 bolsaPuntos.setPuntosUsados((int) (bolsaPuntos.getPuntosUsados() + puntosRequeridos));
                 bolsaPuntos.setSaldoPuntos(bolsaPuntos.getPuntosAsignados() - bolsaPuntos.getPuntosUsados());

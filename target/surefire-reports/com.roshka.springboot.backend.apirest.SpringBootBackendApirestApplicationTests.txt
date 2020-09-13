@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.roshka.springboot.backend.apirest.SpringBootBackendApirestApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.527 s - in com.roshka.springboot.backend.apirest.SpringBootBackendApirestApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.514 s - in com.roshka.springboot.backend.apirest.SpringBootBackendApirestApplicationTests

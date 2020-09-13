@@ -1,6 +1,6 @@
 package com.roshka.springboot.backend.apirest.models.services;
 
-import org.slf4j.LoggerFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -9,7 +9,7 @@ import org.springframework.mail.javamail.MimeMessagePreparator;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.logging.Logger;
+
 
 @Service
 public class MailService {

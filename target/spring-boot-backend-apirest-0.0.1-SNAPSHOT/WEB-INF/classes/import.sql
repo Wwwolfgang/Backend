@@ -13,9 +13,9 @@ Insert into asignacionpuntos (limite_inferior,limite_superior,monto_equivalente)
 Insert into asignacionpuntos (limite_inferior,limite_superior,monto_equivalente) values(800000,100000,30000);
 Insert into asignacionpuntos (limite_inferior,limite_superior,monto_equivalente) values(50000,100000,10000);
 
-Insert into vencimientopuntos (fecha_inicio,fecha_fin,dias_duracion) values('2020-08-28','2020-09-28',15);
-Insert into vencimientopuntos (fecha_inicio,fecha_fin,dias_duracion) values('2020-09-28','2020-10-28',20);
-Insert into vencimientopuntos (fecha_inicio,fecha_fin,dias_duracion) values('2020-10-28','2020-11-28',14);
+Insert into vencimientopuntos (fecha_inicio,fecha_fin,dias_duracion) values('2020-08-28','2020-10-12',15);
+Insert into vencimientopuntos (fecha_inicio,fecha_fin,dias_duracion) values('2020-09-02','2020-11-11',20);
+Insert into vencimientopuntos (fecha_inicio,fecha_fin,dias_duracion) values('2020-08-28','2020-12-10',14);
 
 Insert into bolsas(cliente_id,fecha_asignacion,fecha_caducidad,puntos_asignados,puntos_usados,saldo_puntos,monto_operacion) values (1,'2020-08-30','2020-09-28',8,6,2,800000)
 Insert into bolsas(cliente_id,fecha_asignacion,fecha_caducidad,puntos_asignados,puntos_usados,saldo_puntos,monto_operacion) values (1,'2020-08-28','2020-09-28',11,9,2,800000)

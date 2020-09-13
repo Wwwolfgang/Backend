@@ -56,7 +56,6 @@ public class CargaPuntosServiceImpl implements ICargaPuntoService {
     @Override
     @Transactional
     public BolsaPuntos save(String id, String monto) {
-        //TODO hay que corregir las fechas. Ademas hay que ver como se agrega si no hay puntos.
         BolsaPuntos bolsaPuntos = new BolsaPuntos();
         long millis=System.currentTimeMillis();
         Date date = new Date(millis);
@@ -75,7 +74,9 @@ public class CargaPuntosServiceImpl implements ICargaPuntoService {
         }
         if(puntos == 0)
             return null;
+
         //Fecha de caducidad
+        boolean caducido = true;
         bolsaPuntos.setFechaCaducidad(date);
         for (VencimientoPuntos vencimiento : Vencimientos){
             if(date.compareTo(vencimiento.getFechaInicio()) >= 0 && date.compareTo(vencimiento.getFechaFin()) <= 0){
@@ -86,10 +87,12 @@ public class CargaPuntosServiceImpl implements ICargaPuntoService {
                 }else {
                     bolsaPuntos.setFechaCaducidad(vencimiento.getFechaFin());
                 }
+                caducido = false;
                 break;
             }
         }
-
+        if(caducido)
+            return null;
 
         //Puntos asignados
         bolsaPuntos.setPuntosAsignados(puntos);

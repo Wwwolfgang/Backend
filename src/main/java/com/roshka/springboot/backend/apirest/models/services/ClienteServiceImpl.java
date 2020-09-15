@@ -39,4 +39,24 @@ public class ClienteServiceImpl implements IClienteService{
 		clienteDao.deleteById(id);
 	}
 
+	@Override
+	@Transactional(readOnly = true)
+	public List<Cliente> findByNombre(String nombre) {
+		
+		return clienteDao.findByNombre(nombre);
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public List<Cliente> findByApellido(String apellido) {
+		return clienteDao.findByApellido(apellido);
+	}
+
+	@Override
+	
+	public List<Cliente> findByCreateAt(Date createAt) {
+		return clienteDao.findByCreateAt(createAt);
+	}
+	
+
 }

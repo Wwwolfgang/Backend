@@ -13,7 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.roshka.springboot.backend.apirest.models.entity.Cliente;
+
+import com.roshka.springboot.backend.apirest.models.entity.BolsaPuntos;
 import com.roshka.springboot.backend.apirest.models.services.IClienteService;
+
+import com.roshka.springboot.backend.apirest.models.services.IBolsaService;
 
 @RestController
 @RequestMapping("/api/reportes")
@@ -21,6 +25,9 @@ public class ReportesRestController {
 	
 	@Autowired
 	private IClienteService clienteservice;
+
+	@Autowired
+	private IBolsaService bolsaservice;
     
     
     @GetMapping(value ="/cliente/nombre/{nombre}")
@@ -37,6 +44,13 @@ public class ReportesRestController {
 	public List<Cliente> clienteNacimiento(@PathVariable @DateTimeFormat(pattern="yyyy-MM-dd") Date createAt){
 		return clienteservice.findByCreateAt(createAt);
 	}
+
+	@GetMapping(value ="/bolsa-puntos/cliente/{cliente}")
+	public List<BolsaPuntos> bolsaPuntosCliente(@PathVariable Long cliente){
+		
+		return (clienteservice.findById(cliente)).getBolsas();
+	}
+
    
    
 

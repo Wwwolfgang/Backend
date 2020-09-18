@@ -2,6 +2,7 @@ package com.roshka.springboot.backend.apirest.controllers;
 
 import java.util.Date;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -49,6 +50,21 @@ public class ReportesRestController {
 	public List<BolsaPuntos> bolsaPuntosCliente(@PathVariable Long cliente){
 		
 		return (clienteservice.findById(cliente)).getBolsas();
+	}
+
+
+	@GetMapping(value ="/bolsa-puntos/rango/{limInf}/{limSu}")
+	public List<BolsaPuntos> bolsaPuntosRango(@PathVariable Integer limInf , @PathVariable Integer limSu ){
+		
+		List<BolsaPuntos> bolsas = bolsaservice.findAll();
+		List<BolsaPuntos> bolsasRetorno = new ArrayList<BolsaPuntos>();
+		for (BolsaPuntos bolsa : bolsas){
+			Integer bolsaPuntos = bolsa.getPuntosAsignados();
+            if(bolsaPuntos >= limInf && bolsaPuntos <= limSu ){
+                bolsasRetorno.add(bolsa);
+            }
+        }
+		return bolsasRetorno;
 	}
 
    

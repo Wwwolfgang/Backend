@@ -9,5 +9,5 @@ public interface IBolsaService {
 	
 	public BolsaPuntos findByCliente(Long cliente);
 	
-	
+	public List<BolsaPuntos> findAll();
 }

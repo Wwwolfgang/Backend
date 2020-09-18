@@ -22,5 +22,11 @@ public class BolsasServiceImpl implements IBolsaService{
 		return bolsaDao.findByCliente(cliente);
 	}
 
+	@Override
+	@Transactional(readOnly = true)
+	public List<BolsaPuntos> findAll() {
+		return (List<BolsaPuntos>) bolsaDao.findAll();
+	}
+
 
 }

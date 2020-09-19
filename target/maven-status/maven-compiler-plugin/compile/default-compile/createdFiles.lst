@@ -31,8 +31,11 @@ com/roshka/springboot/backend/apirest/models/services/ICabeceraService.class
 com/roshka/springboot/backend/apirest/controllers/HomeController.class
 com/roshka/springboot/backend/apirest/models/Tareas/TareasProgramadas.class
 com/roshka/springboot/backend/apirest/models/entity/VencimientoPuntos.class
+com/roshka/springboot/backend/apirest/models/services/IBolsaService.class
+com/roshka/springboot/backend/apirest/controllers/ReportesRestController.class
 com/roshka/springboot/backend/apirest/models/dao/ICabeceraDao.class
 com/roshka/springboot/backend/apirest/models/services/IDetallesService.class
 com/roshka/springboot/backend/apirest/controllers/UsoPuntosRestController.class
+com/roshka/springboot/backend/apirest/models/services/BolsasServiceImpl.class
 com/roshka/springboot/backend/apirest/controllers/BolsaRestController.class
 com/roshka/springboot/backend/apirest/models/dao/IUsoPuntosDao.class

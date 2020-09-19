@@ -4,6 +4,7 @@
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/ICabeceraDao.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/Tareas/TareasProgramadas.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/AsignacionPuntosRestController.java
+/home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/BolsasServiceImpl.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/IClienteService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/HomeController.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/AsignacionPuntos.java
@@ -19,6 +20,7 @@
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/ICabeceraService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Cabecera.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IAsignacionPuntosDao.java
+/home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/IBolsaService.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/BolsaRestController.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/ServletInitializer.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/entity/Detalle.java
@@ -29,6 +31,7 @@
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/CabeceraServiceImpl.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/UsoPuntosServiceImpl.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/UsoPuntosRestController.java
+/home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/controllers/ReportesRestController.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IBolsaClienteDao.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/dao/IUsoPuntosDao.java
 /home/www/Documentos/Backend/Backend/src/main/java/com/roshka/springboot/backend/apirest/models/services/MailService.java
